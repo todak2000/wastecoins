@@ -8,12 +8,7 @@ import WastePoint from '../../images/waste_point.svg';
 import GoingGreen from '../../images/goinggreen.svg';
 import Facebook from '../../images/facebook.svg';
 import Andela from '../../images/andela.svg';
-<<<<<<< HEAD
 import WasteCoinLogo from  '../../images/waste_coin_logo.svg';
-=======
-import ForwardArrow from '../../images/arrow_forward.svg'
-import { Link } from 'react-router-dom';
->>>>>>> f9544ffeffcafe3ea36c97d7b13a1afe856bca1c
 
 const Landing = () => (
   <div className="landing_page">
