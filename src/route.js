@@ -6,6 +6,7 @@ import AuthLayout from './components/Layout/Auth';
 import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
 import VerificationPage from './views/Verification';
+import ResetpasswordPage from './views/ResetPassword';
 import './index.css'
 
 const routing = () => (
@@ -17,6 +18,7 @@ const routing = () => (
                 <Route path="/login" component={SignIn} />
                 <Route path="/registration" component={SignUp} />
                 <Route path="/verification" component={VerificationPage} />
+                <Route path="/resetpassword" component={ResetpasswordPage} />
             </Switch>
         </main>
         </AuthLayout>

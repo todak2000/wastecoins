@@ -22,7 +22,7 @@ function SignIn() {
                 <button className="btn btn-block btn-primary mt-5 login_btn">Login</button>
                 <div className="d-flex justify-content-between mt-3 sign_in__info">
                     <a href="##"><Link to="/registration">Create Account</Link></a>
-                    <a href="##">Forget passowrd?</a>
+                    <Link to="/resetpassword"><a href="##">Forget passowrd?</a></Link>
                 </div>
             </form>
         </div>
