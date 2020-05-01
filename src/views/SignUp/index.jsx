@@ -96,7 +96,7 @@ function RegistrationPage(props) {
               
             </div>
             <div className="col-md-12 submit-reg-div">
-                <button type="submit" className="reg-submit" >Create Account</button>
+            <Link to ="/verification"> <button type="submit" className="reg-submit" >Create Account</button></Link>
                 <Link to ="/login"><p>Have an account already? Sign in </p></Link>
             </div>
           </form>
