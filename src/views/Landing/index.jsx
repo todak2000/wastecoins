@@ -5,17 +5,21 @@ import OpenSrc from '../../images/open_source.svg';
 import Workflow from '../../images/workflow.svg';
 import Bullet from '../../images/bullet.svg';
 import WastePoint from '../../images/waste_point.svg';
+import Waste_Logo from '../../images/waste_coin_logo.svg';
 import GoingGreen from '../../images/goinggreen.svg';
 import Facebook from '../../images/facebook.svg';
 import Andela from '../../images/andela.svg';
+import ForwardArrow from '../../images/arrow_forward.svg'
+import { Link } from 'react-router-dom';
 
 const Landing = () => (
   <div className="landing_page">
     <section className="row">
       <div className="col-xs-12 col-xl-5 landing_page__create_account">
+        <div className="mobile-logo-div mb-5"><img src={Waste_Logo} className="logo mobile-logo" alt="logo" /></div>
         <h1>Hey there!</h1>
         <h3>Get rewards for disposing waste <br /> Properly</h3>
-        <button className="d-none d-sm-block landing_page__create_account__btn">Create Account</button>
+        <Link to="/registration"><a href="##" className="btn btn-block d-none d-sm-block landing_page__create_account__btn">Create Account</a></Link>
       </div>
       <div className="d-none col-xlg-7 d-xl-block landing_page__waste">
         <img src={WasteCoinWallet} alt="waste_coin_wallet_img" />
@@ -23,8 +27,8 @@ const Landing = () => (
       
       <div className="d-block d-sm-none landing_page__create_account__mobile">
         <p>Join us, its Free</p>
-        <button className="btn btn-primary">Sign in </button>
-        <p>Create an account</p>
+        <Link to="/login"><button className="btn btn-primary">Sign in <span><img src={ForwardArrow} alt="arrow_forward" /></span></button></Link>
+        <p><Link to="/registration">Create an account</Link></p>
       </div>
       
     </section>
@@ -39,7 +43,7 @@ const Landing = () => (
               A decentralized waste solution where you get an incentive for every waste mined.</p>
         </div>
 
-        <div className="row landing_page__info__waste_coin_info">
+        <div className="row landing_page__info__waste_coin_info" id="how_it_works">
           <div className="col-sm-12 col-md-8">
             <h1>How is WasteCoin generated</h1>
             <p>Generation and allocation of WasteCoin is monthly and
@@ -97,8 +101,8 @@ const Landing = () => (
             <p>Your effort can go a very long way to save our cities,
                 sustain them and the ecosystem at large.</p>
           </div>
-          <div className="landing_page__reason__btn">
-            <button >Get a WasteCoin Wallet Now!</button>
+          <div className="landing_page__reason__btn text-center">
+            <a href="##" className="btn btn-block" >Get a WasteCoin Wallet Now!</a>
           </div>
         </div>
       </div>

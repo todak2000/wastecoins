@@ -1,33 +1,41 @@
 import React from 'react';
-import WasteCoinLogo from '../../images/waste_coin_logo.svg';
-import PlayStpreLogo from '../../images/googlestore.svg';
-import AppleStoreLogo from '../../images/applestore.svg';
-
-import './header.css';
+import Waste_Logo from '../../images/waste_coin_logo.svg'
+import Apple_Logo from '../../images/applestore.svg'
+import Google_Logo from '../../images/googlestore.svg'
 import { Link } from 'react-router-dom';
 
-const Header = () => (
-    <header className="header_layout">
-        <nav className="header_layout__nav">
-            <div className="header_layout__logo">
-                <img src={WasteCoinLogo} alt="waste_coin_logo" />
-            </div>
-            <div className="d-none d-sm-block header_layout__links">
-                <ul>
-                    <li>How it works</li>
-                    <li>Register</li>
-                    <li><Link to="/login">Login</Link></li>
+
+function Header() {
+    return(
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a className="navbar-brand" href="##"><Link to ="/"><img src={Waste_Logo} className="logo" alt="logo" /></Link></a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav mr-auto">
+                    <li className="nav-item">
+                        <Link to ="/"><a className="nav-link" href="#how_it_works">How it works</a></Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link to ="/registration"><a className="nav-link" href="##">Register</a></Link>
+                    </li>
+                    <li className="nav-item">
+                    <Link to="/login"><a className="nav-link " href="##">Login</a></Link>
+                    </li>
+                </ul>
+                <ul className="navbar-nav my-2 my-lg-0">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="##"><img src={Google_Logo} className="logo" alt="logo" /> <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li className="nav-item p-2">
+                        <a className="nav-link" href="##"><img src={Apple_Logo} className="logo" alt="logo" /></a>
+                    </li>
                 </ul>
             </div>
-            <div className="spacer" />
-            <div className="header_layout__google_play_link">
-            <img src={PlayStpreLogo} alt="waste_coin_logo" />
-            </div>
-            <div className="header_layout__apple_store_link">
-            <img src={AppleStoreLogo} alt="waste_coin_logo" />
-            </div>
         </nav>
-    </header>
-);
-
+    )
+}
 export default Header;
+
