@@ -8,11 +8,13 @@ import WastePoint from '../../images/waste_point.svg';
 import GoingGreen from '../../images/goinggreen.svg';
 import Facebook from '../../images/facebook.svg';
 import Andela from '../../images/andela.svg';
+import WasteCoinLogo from  '../../images/waste_coin_logo.svg';
 
 const Landing = () => (
   <div className="landing_page">
-    <section className="row">
+    <section className="row mobile-container">
       <div className="col-xs-12 col-xl-5 landing_page__create_account">
+      <img src={WasteCoinLogo} alt="waste_coin_logo" />
         <h1>Hey there!</h1>
         <h3>Get rewards for disposing waste <br /> Properly</h3>
         <button className="d-none d-sm-block landing_page__create_account__btn">Create Account</button>
@@ -20,7 +22,7 @@ const Landing = () => (
       <div className="d-none col-xlg-7 d-xl-block landing_page__waste">
         <img src={WasteCoinWallet} alt="waste_coin_wallet_img" />
       </div>
-      
+      <br></br>
       <div className="d-block d-sm-none landing_page__create_account__mobile">
         <p>Join us, its Free</p>
         <button className="btn btn-primary">Sign in </button>
