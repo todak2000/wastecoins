@@ -18,9 +18,6 @@ function ResetPasswordPage() {
                     <input type="email" placeholder=" Email" className="form-control-login" />
                 </div>
                 <button className="btn btn-block btn-primary mt-5 login_btn">Reset Password</button>
-                <div className="d-flex justify-content-between mt-3 sign_in__info">
-                    <a href="##">Resend Code</a>
-                </div>
             </form>
         </div>
     );

@@ -18,7 +18,7 @@ function VerificationPage() {
                     <input type="text" placeholder=" * * * * * *" className="form-control-login" />
                 </div>
                 <button className="btn btn-block btn-primary mt-5 login_btn">Verify Code</button>
-                <div className="d-flex justify-content-between mt-3 sign_in__info">
+                <div className="d-flex justify-content-center mt-3 sign_in__info">
                     <a href="##">Resend Code</a>
                 </div>
             </form>
