@@ -8,7 +8,7 @@ import './dashboard.css';
 
 function Dashboard() {
     return (
-        <div className="dahsboard-body">
+        <div className="dashboard-body">
             <UserHeader />
             <UserSidebar/>
             <div className="main">
