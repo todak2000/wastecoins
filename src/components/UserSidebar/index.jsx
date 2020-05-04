@@ -1,5 +1,9 @@
 import React from 'react';
-import Waste_Logo from '../../images/waste_coin_logo.svg';
+import Home from '../../images/home.svg';
+import Profile from '../../images/profile.svg';
+import Wallet from '../../images/wallet.svg';
+import Notification from '../../images/notification.svg';
+import Logout from '../../images/logout.svg';
 import './userSidebar.css';
 import { Link } from 'react-router-dom';
 
@@ -7,21 +11,21 @@ import { Link } from 'react-router-dom';
 function UserSidebar() {
     return(
         <nav className="sidenav">
-            <ul className="navbar-nav mr-auto">
-                <li className="nav-item">
-                    <Link to ="/dashboard"><a className="nav-link" href="#how_it_works">Home</a></Link>
+            <ul className="navbar-nav mr-auto sidenav-ul">
+                <li className="nav-item sidenac-li">
+                    <Link to ="/dashboard"><a className="nav-link" href="#how_it_works"><img src={Home} className="logo" alt="Home-logo" /><span className="sidenav-span">Home</span></a></Link>
                 </li>
                 <li className="nav-item">
-                <Link to ="/registration"><a className="nav-link" href="##">Profile</a></Link>
+                <Link to ="/registration"><a className="nav-link" href="##"><img src={Profile} className="logo" alt="Profile-logo" /> <span className="sidenav-span">Profile</span></a></Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/login"><a className="nav-link " href="##">Wallet</a></Link>
+                <Link to="/login"><a className="nav-link " href="##"><img src={Wallet} className="logo" alt="Wallet-logo" /><span className="sidenav-span">Wallet</span></a></Link>
                 </li>
                 <li className="nav-item">
-                <Link to ="/registration"><a className="nav-link" href="##">Notification</a></Link>
+                <Link to ="/registration"><a className="nav-link" href="##"><img src={Notification} className="logo" alt="Notification-logo" /> <span className="sidenav-span">Notification</span></a></Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/login"><a className="nav-link " href="##">Logout</a></Link>
+                <Link to="/"><a className="nav-link " href="##"><img src={Logout} className="logo" alt="Logout-logo" /><span className="sidenav-span">Logout</span></a></Link>
                 </li>
             </ul>
             

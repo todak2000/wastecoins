@@ -12,7 +12,7 @@
 .dashboard-inner{
     width:100%;
     margin-left: 270px;
-    background-color: #E5E5E5;
+    background-color: #E5E5E505;
     height:calc(100% - 80px);
     
 }

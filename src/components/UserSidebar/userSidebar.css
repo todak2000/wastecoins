@@ -3,10 +3,22 @@
     width: 270px;
     position: fixed;
     z-index: 1;
-    top: 0;
+    bottom: 0;
     left: 0;
     background-color: #fff;
     overflow-x: hidden;
     padding-top: 20px;
-    border-right: 2px solid #3F3F44;
+    border-right: 2px solid #3F3F4412;
+    padding:1%;
+  }
+  .sidenav-li{
+    margin: 5px;
+    padding: 0 5%;
+  }
+  .sidenav-li:hover{
+    background-color: #38C8E850;
+    border-radius: 5px;
+  }
+  .sidenav-span{
+    padding-right: 30px;
   }
