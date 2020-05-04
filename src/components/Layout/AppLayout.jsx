@@ -12,7 +12,7 @@ const AppLayout = () => {
             <UserSidebar/>
             <div className="main">
             </div>
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
