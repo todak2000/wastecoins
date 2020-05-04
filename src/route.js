@@ -24,13 +24,11 @@ const routing = () => (
             </Switch>
         </main>
         </AuthLayout>
-        <AppLayout>
-          <main>
-              <Switch>
-                  <Route path="/dashboard" component={Dashboard} />
-              </Switch>
-          </main>
-        </AppLayout>
+ 
+        <Switch>
+            <Route path="/dashboard" component={Dashboard} />
+        </Switch>
+         
   </Router>
 )
 

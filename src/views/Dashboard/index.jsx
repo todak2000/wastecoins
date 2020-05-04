@@ -8,7 +8,7 @@ import './dashboard.css';
 function Dashboard() {
     return (
         <div className="dahsboard-body">
-            {/* <AppLayout/> */}
+            <h1>HELLO WORLD!</h1>
         </div>
     );
 }
