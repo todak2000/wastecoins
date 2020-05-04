@@ -1,4 +1,7 @@
 .userfooter {
     text-align: center;
     background-color: cornflowerblue;
+    position: fixed;
+    bottom:0;
+    width:100%;
 }
