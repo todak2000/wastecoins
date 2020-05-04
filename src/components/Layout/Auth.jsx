@@ -6,7 +6,7 @@ import Footer from '../Footer';
 
 const AuthLayout = (props) => {
     return (
-        <div className="container">
+        <div className="container authlayout">
             <Header />
             {props.children}
             <Footer />

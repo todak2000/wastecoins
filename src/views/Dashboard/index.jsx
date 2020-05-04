@@ -8,7 +8,11 @@ import './dashboard.css';
 function Dashboard() {
     return (
         <div className="dahsboard-body">
-            <h1>HELLO WORLD!</h1>
+            <UserHeader />
+            <UserSidebar/>
+            <div className="main">
+            </div>
+            <Footer />
         </div>
     );
 }
