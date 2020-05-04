@@ -11,7 +11,8 @@ function Dashboard() {
         <div className="dashboard-body">
             <UserHeader />
             <UserSidebar/>
-            <div className="main">
+            <div className="dashboard-inner">
+                <h1>hi people of God</h1>
             </div>
             <Footer />
         </div>

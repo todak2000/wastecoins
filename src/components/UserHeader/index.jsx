@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function UserHeader() {
     return(
-        <nav className="navbar navbar-expand-lg bg-primary">
+        <nav className="navbar navbar-expand-lg appheader">
             <a className="navbar-brand" href="##"><Link to ="/"><img src={Waste_Logo} className="logo" alt="logo" /></Link></a>  
         </nav>
     )

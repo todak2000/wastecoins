@@ -9,3 +9,10 @@
     left: 0;
 
 }
+.dashboard-inner{
+    width:100%;
+    margin-left: 270px;
+    background-color: #E5E5E5;
+    height:calc(100% - 80px);
+    
+}
