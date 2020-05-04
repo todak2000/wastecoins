@@ -1,6 +1,6 @@
 import React from 'react';
 import Waste_Logo from '../../images/waste_coin_logo.svg'
-import './UserHeader.css';
+import './userHeader.css';
 import { Link } from 'react-router-dom';
 
 
