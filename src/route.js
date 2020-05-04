@@ -7,6 +7,7 @@ import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
 import VerificationPage from './views/Verification';
 import ResetpasswordPage from './views/ResetPassword';
+import Dashboard from './views/Dashboard';
 import './index.css'
 
 const routing = () => (
@@ -19,6 +20,7 @@ const routing = () => (
                 <Route path="/registration" component={SignUp} />
                 <Route path="/verification" component={VerificationPage} />
                 <Route path="/resetpassword" component={ResetpasswordPage} />
+                <Route path="/dashboard" component={Dashboard} />
             </Switch>
         </main>
         </AuthLayout>
