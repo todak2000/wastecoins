@@ -21,7 +21,6 @@ const routing = () => (
                 <Route path="/registration" component={SignUp} />
                 <Route path="/verification" component={VerificationPage} />
                 <Route path="/resetpassword" component={ResetpasswordPage} />
-                <Route path="/dashboard" component={Dashboard} />
             </Switch>
         </main>
         </AuthLayout>
