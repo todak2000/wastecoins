@@ -5,15 +5,14 @@ import UserSidebar from '../UserSidebar/index';
 import './layout.css';
 import Footer from '../Footer';
 
-const AppLayout = (props) => {
+const AppLayout = () => {
     return (
         <div className="container">
             <UserHeader />
             <UserSidebar/>
             <div className="main">
-            {props.children}
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
