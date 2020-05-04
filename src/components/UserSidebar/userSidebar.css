@@ -12,13 +12,17 @@
     padding:1%;
   }
   .sidenav-li{
-    margin: 5px;
+    margin: 7px;
     padding: 0 5%;
+  }
+  .sidenav-li > a{
+    text-decoration: none;
+    color:#000;
   }
   .sidenav-li:hover{
     background-color: #38C8E850;
     border-radius: 5px;
   }
   .sidenav-span{
-    padding-right: 30px;
+    padding-left: 30px;
   }
