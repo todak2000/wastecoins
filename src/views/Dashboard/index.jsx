@@ -14,7 +14,7 @@ function Dashboard() {
             <div className="dashboard-inner">
                 <h1>hi people of God</h1>
             </div>
-            <Footer />
+            <UserFooter />
         </div>
     );
 }

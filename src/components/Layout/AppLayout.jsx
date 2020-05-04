@@ -1,9 +1,9 @@
 import React from 'react';
 import UserHeader from '../UserHeader/index';
 import UserSidebar from '../UserSidebar/index';
-
+import UserFooter from '../UserFooter/index';
 import './layout.css';
-import Footer from '../Footer';
+
 
 const AppLayout = () => {
     return (
@@ -12,7 +12,7 @@ const AppLayout = () => {
             <UserSidebar/>
             <div className="main">
             </div>
-            <Footer />
+            <UserFooter />
         </div>
     )
 }

@@ -26,7 +26,9 @@ const routing = () => (
         </AuthLayout>
  
         <Switch>
+          <AppLayout>
             <Route path="/dashboard" component={Dashboard} />
+          </AppLayout>         
         </Switch>
          
   </Router>
