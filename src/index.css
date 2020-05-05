@@ -99,7 +99,7 @@ li>a{color:#1F2431}
 }
 @media screen and (max-width: 810px) {
   .mobile{
-    display: none!important;
+    display: none;
   }
 }
 /* MOBILE RESPONSIVENES */
@@ -137,7 +137,7 @@ li>a{color:#1F2431}
   body{
     padding:0;
     font-family: 'Montserrat', sans-serif;
-    height: 100vh !important;
+    height: 100vh;
   }
   /* .landing_page{
     height: 100vh!important;
@@ -167,7 +167,7 @@ li>a{color:#1F2431}
   .reg-header{
     background-color: #2AD2BE;
     height:42px;
-    border-radius: 0px!important;
+    border-radius: 0px;
     padding-top:10px;
     color:#fff;
     font-size:1rem;
@@ -175,10 +175,10 @@ li>a{color:#1F2431}
     padding-left:20px;
   }
   .dashboard-header{
-    display: block!important;
+    display: block;
     background-color: #2AD2BE;
     height:42px;
-    border-radius: 0px!important;
+    border-radius: 0px;
     padding-top:10px;
     color:#fff;
     font-size:1rem;
@@ -200,24 +200,24 @@ li>a{color:#1F2431}
 
   /* MOBILE MENU */
   .sidenav {
-    height: 80px!important;
-    width: 96%!important;
-    position: fixed!important;
-    z-index: 1000!important;
-    bottom: 0!important;
-    background-color: #1773A6!important;
-    overflow-x: hidden!important;
-    padding-top: 20px!important;
-    padding:2%!important;
+    height: 80px;
+    width: 96%;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    background-color: #1773A6;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding:2%;
     border-radius: 0 0 20px 20px;
     margin-left:1%;
     margin-bottom:1%;
   }
   .sidenav-ul{
-    display: none!important;
+    display: none;
   }
   .sidenav-ul-mobile{
-    display: flex!important;
+    display: flex;
     justify-content: space-evenly;
     margin-top:3%;
   }
@@ -231,10 +231,10 @@ li>a{color:#1F2431}
     padding:5%;
   }
   .dashboard-inner{
-    width:100%!important;
-    background-color: #E5E5E505!important;
-    height:calc(100vh - 160px)!important;
-    margin-left: 0px!important;
+    width:100%;
+    background-color: #E5E5E505;
+    height:calc(100vh - 160px);
+    margin-left: 0px;
     
   }
   .menu-box > a{
