@@ -201,7 +201,7 @@ li>a{color:#1F2431}
   /* MOBILE MENU */
   .sidenav {
     height: 80px!important;
-    width: 100%!important;
+    width: 98%!important;
     position: fixed!important;
     z-index: 1000!important;
     bottom: 0!important;
@@ -209,6 +209,9 @@ li>a{color:#1F2431}
     overflow-x: hidden!important;
     padding-top: 20px!important;
     padding:1%!important;
+    border-radius: 0 0 20px 20px;
+    margin-left:1%;
+    margin-bottom:1%;
   }
   .sidenav-ul{
     display: none!important;
@@ -223,8 +226,9 @@ li>a{color:#1F2431}
     padding:1%;
   }
   .menu-box:hover{
-    background-color: #2ad2be20;
+    background-color: #2ad2be50;
     border-radius:9px;
+    padding:5%;
   }
   .dashboard-inner{
     width:100%!important;
@@ -240,6 +244,9 @@ li>a{color:#1F2431}
   }
   .menu-box > a:hover{
     text-decoration: none;
+  }
+  .dashboard-body{
+    padding:5%;
   }
 
  
