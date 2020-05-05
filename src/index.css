@@ -198,56 +198,7 @@ li>a{color:#1F2431}
     display: none;
   }
 
-  /* MOBILE MENU */
-  .sidenav {
-    height: 80px;
-    width: 96%;
-    position: fixed;
-    z-index: 1000;
-    bottom: 0;
-    background-color: #1773A6;
-    overflow-x: hidden;
-    padding-top: 20px;
-    padding:2%;
-    border-radius: 0 0 20px 20px;
-    margin-left:1%;
-    margin-bottom:1%;
-  }
-  .sidenav-ul{
-    display: none;
-  }
-  .sidenav-ul-mobile{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top:3%;
-  }
-  .menu-box{
-    text-align: center;
-    padding:1%;
-  }
-  .menu-box:hover{
-    background-color: #2ad2be50;
-    border-radius:9px;
-    padding:5%;
-  }
-  .dashboard-inner{
-    width:100%;
-    background-color: #E5E5E505;
-    height:calc(100vh - 160px);
-    margin-left: 0px;
-    
-  }
-  .menu-box > a{
-    color: #fff;
-    font-size: 0.7rem;
-    text-decoration: none;
-  }
-  .menu-box > a:hover{
-    text-decoration: none;
-  }
-  .dashboard-body{
-    padding:2%;
-  }
+  
 
  
 }

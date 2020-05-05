@@ -16,3 +16,42 @@
     height:calc(100% - 80px);
     
 }
+
+/* MOBILE RESPONSIVENES */
+@media screen and (max-width: 760px) {
+
+    .dashboard-header{
+      display: block;
+      background-color: #2AD2BE;
+      height:42px;
+      border-radius: 0px;
+      padding-top:10px;
+      color:#fff;
+      font-size:1rem;
+      margin-bottom: 5%;
+    }
+  
+    /* DASHBOARD  */
+    .appheader{
+      display: none;
+    }
+    .userfooter{
+      display: none;
+    }
+  
+    /* MOBILE MENU */
+    
+    .dashboard-inner{
+      width:100%;
+      background-color: #E5E5E505;
+      height:calc(100vh - 160px);
+      margin-left: 0px;
+      
+    }
+    
+    .dashboard-body{
+      padding:2%;
+    }
+  
+   
+  }
