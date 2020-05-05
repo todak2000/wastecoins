@@ -4,6 +4,12 @@ import Profile from '../../images/profile.svg';
 import Wallet from '../../images/wallet.svg';
 import Notification from '../../images/notification.svg';
 import Logout from '../../images/logout.svg';
+
+import ProfileMobile from '../../images/profile-white.svg';
+import WalletMobile from '../../images/wallet-white.svg';
+import NotificationMobile from '../../images/notification-white.svg';
+import LogoutMobile from '../../images/logout-white.svg';
+import HomeMobile from '../../images/home-white.svg';
 import './userSidebar.css';
 import { Link } from 'react-router-dom';
 
@@ -31,35 +37,35 @@ function UserSidebar() {
             <div className="sidenav-ul-mobile">
                 <div className="menu-box">
                     <Link to ="/dashboard">
-                        <img src={Home} className="logo" alt="Home-logo" />
-                        <div className="sidenav-inner-div">&nbsp;Home</div>
+                        <img src={NotificationMobile} className="logo" alt="Notification-logo" />
+                        <div className="sidenav-inner-div">Notification</div>
                     </Link>
                 </div>
                 <div className="menu-box">
                     <Link to ="/dashboard">
-                        <img src={Profile} className="logo" alt="Profile-logo" />
-                        <div className="sidenav-inner-div">&nbsp;Profile</div>
+                        <img src={WalletMobile} className="logo" alt="Wallet-logo" />
+                        <div className="sidenav-inner-div">Wallet</div>
+                    </Link>
+                </div>
+                <div className="menu-box">
+                    <Link to ="/dashboard">
+                        <img src={HomeMobile} className="logo" alt="Profile-logo" />
+                        <div className="sidenav-inner-div">Home</div>
+                    </Link>
+                </div>
+                <div className="menu-box">
+                    <Link to ="/dashboard">
+                        <img src={ProfileMobile} className="logo" alt="Profile-logo" />
+                        <div className="sidenav-inner-div">Profile</div>
+                    </Link>
+                </div>
+                <div className="menu-box">
+                    <Link to ="/dashboard">
+                        <img src={LogoutMobile} className="logo" alt="Logout-logo" />
+                        <div className="sidenav-inner-div">Logout</div>
                     </Link>
                 </div>
             </div>
-
-            {/* <ul className="navbar-nav mr-auto ">
-                <li className="nav-item sidenav-li">
-    
-                </li> */}
-                {/* <li className="nav-item sidenav-li">
-                <Link to ="/registration"><a className="nav-link" href="##"><img src={Profile} className="logo" alt="Profile-logo" /> <span className="sidenav-span">Profile</span></a></Link>
-                </li>
-                <li className="nav-item sidenav-li">
-                <Link to="/login"><a className="nav-link " href="##"><img src={Wallet} className="logo" alt="Wallet-logo" /><span className="sidenav-span">&nbsp;Wallet</span></a></Link>
-                </li>
-                <li className="nav-item sidenav-li">
-                <Link to ="/registration"><a className="nav-link" href="##"><img src={Notification} className="logo" alt="Notification-logo" /> <span className="sidenav-span">Notification</span></a></Link>
-                </li>
-                <li className="nav-item sidenav-li">
-                <Link to="/"><a className="nav-link " href="##"><img src={Logout} className="logo" alt="Logout-logo" /><span className="sidenav-span">&nbsp;Logout</span></a></Link>
-                </li> */}
-            {/* </ul> */}
         </nav>
     )
 }

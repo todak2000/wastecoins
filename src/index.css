@@ -216,10 +216,16 @@ li>a{color:#1F2431}
   .sidenav-ul-mobile{
     display: flex!important;
     justify-content: space-evenly;
+    margin-top:3%;
   }
   .menu-box{
-    width:200px;
     background-color: #ccc;
+    text-align: center;
+    padding:1%;
+  }
+  .menu-box:hover{
+    background-color: #2ad2be;
+    border-radius:9px;
   }
   .dashboard-inner{
     width:100%!important;
@@ -228,25 +234,8 @@ li>a{color:#1F2431}
     margin-left: 0px!important;
     
   }
-  .sidenav-li{
-    margin: 7px;
-    padding: 0 5%;
-  }
-  .sidenav-li > a{
-    text-decoration: none;
-    color:#000;
-  }
-  .sidenav-li:hover{
-    background-color: #38C8E850;
-    border-radius: 5px;
-    padding: 0 7%;
-  }
-  .sidenav-li > a:hover{
-    text-decoration: none;
-    color:#000;
-  }
-  .sidenav-span{
-    padding-left: 30px;
+  .menu-box > a{
+    color: #fff;
   }
  
 
