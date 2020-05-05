@@ -10,7 +10,7 @@ function UserHeader() {
             <nav className="navbar navbar-expand-lg appheader">
             <a className="navbar-brand" href="##"><Link to ="/"><img src={Waste_Logo} className="logo" alt="logo" /></Link></a>  
             </nav>
-            <div className="reg-header text-center">Dashboard</div>
+            <div className="dashboard-header text-center">Dashboard</div>
         </div>
     )
 }
