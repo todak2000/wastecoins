@@ -219,12 +219,11 @@ li>a{color:#1F2431}
     margin-top:3%;
   }
   .menu-box{
-    background-color: #ccc;
     text-align: center;
     padding:1%;
   }
   .menu-box:hover{
-    background-color: #2ad2be;
+    background-color: #2ad2be20;
     border-radius:9px;
   }
   .dashboard-inner{
@@ -236,8 +235,12 @@ li>a{color:#1F2431}
   }
   .menu-box > a{
     color: #fff;
+    font-size: 0.7rem;
+    text-decoration: none;
   }
- 
+  .menu-box > a:hover{
+    text-decoration: none;
+  }
 
  
 }
