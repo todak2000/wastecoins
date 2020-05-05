@@ -183,7 +183,6 @@ li>a{color:#1F2431}
     color:#fff;
     font-size:1rem;
     margin-bottom: 5%;
-    padding-left:20px;
   }
   .mobile-logo{
     display: block;
@@ -206,7 +205,7 @@ li>a{color:#1F2431}
     position: fixed!important;
     z-index: 1000!important;
     bottom: 0!important;
-    background-color: rgb(164, 241, 22)#9CFCCF!important;
+    background-color: #1773A6!important;
     overflow-x: hidden!important;
     padding-top: 20px!important;
     padding:1%!important;
@@ -216,6 +215,11 @@ li>a{color:#1F2431}
   }
   .sidenav-ul-mobile{
     display: flex!important;
+    justify-content: space-evenly;
+  }
+  .menu-box{
+    width:200px;
+    background-color: #ccc;
   }
   .dashboard-inner{
     width:100%!important;
