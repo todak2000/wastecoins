@@ -91,6 +91,9 @@ li>a{color:#1F2431}
   display: none;
 }
 .mobile{display: none;}
+.sidenav-ul-mobile{
+  display: none;
+}
 
 @media screen and (max-width: 810px) {
   .mobile{
@@ -173,6 +176,59 @@ li>a{color:#1F2431}
     display: block;
     margin:auto;
 
+  }
+
+  /* DASHBOARD  */
+  .appheader{
+    display: none;
+  }
+  .userfooter{
+    display: none;
+  }
+
+  /* MOBILE MENU */
+  .sidenav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    background-color: rgb(164, 241, 22)#9CFCCF;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding:1%;
+  }
+  .sidenav-ul{
+    display: none;
+  }
+  .sidenav-ul-mobile{
+    display: flex;
+  }
+  .dashboard-inner{
+    width:100%;
+    background-color: #E5E5E505;
+    height:calc(100vh - 160px);
+    
+}
+  .sidenav-li{
+    margin: 7px;
+    padding: 0 5%;
+  }
+  .sidenav-li > a{
+    text-decoration: none;
+    color:#000;
+  }
+  .sidenav-li:hover{
+    background-color: #38C8E850;
+    border-radius: 5px;
+    padding: 0 7%;
+  }
+  .sidenav-li > a:hover{
+    text-decoration: none;
+    color:#000;
+  }
+  .sidenav-span{
+    padding-left: 30px;
   }
  
 
