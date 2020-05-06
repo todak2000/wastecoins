@@ -5,5 +5,15 @@
         height:100vh;
         padding-right: 0;
         padding-left: 0;
+        width: auto;
     }
+    .container {
+        width: auto;
+        padding-right: 0; 
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
+
