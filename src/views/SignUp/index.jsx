@@ -37,7 +37,7 @@ class RegistrationPage extends Component{
                  <div className="form-group text-left">
                     <input type="text" 
                         className="form-control-login" 
-                        id="firstName" 
+                        id="firstname" 
                         placeholder="First Name"
                         value={this.state.credentials.firstname}
                         onChange={this.inputChanged}
@@ -47,7 +47,7 @@ class RegistrationPage extends Component{
                   <div className="form-group text-left">
                     <input type="text" 
                         className="form-control-login" 
-                        id="lastName" 
+                        id="lastname" 
                         placeholder="Last Name"
                         value={this.state.credentials.lastname}
                         onChange={this.inputChanged}
@@ -59,7 +59,7 @@ class RegistrationPage extends Component{
                         className="form-control-login" 
                         id="phone" 
                         placeholder="Phone Number"
-                        value={this.state.credentials.phonenumber}
+                        value={this.state.credentials.phone}
                         onChange={this.inputChanged}
                     />
                   </div>
@@ -89,7 +89,7 @@ class RegistrationPage extends Component{
                   <div className="form-group text-left">
                     <input type="password" 
                         className="form-control-login" 
-                        id="confirmPassword" 
+                        id="confirmpassword" 
                         placeholder="Confirm Password"
                         value={this.state.credentials.confirmpassword}
                         onChange={this.inputChanged}
@@ -119,7 +119,7 @@ class RegistrationPage extends Component{
                   <div className="form-group text-left">
                     <input type="text" 
                         className="form-control-login" 
-                        id="sstate" 
+                        id="state" 
                         placeholder="State"
                         value={this.state.credentials.state}
                         onChange={this.inputChanged}
