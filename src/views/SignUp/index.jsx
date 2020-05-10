@@ -20,6 +20,19 @@ class RegistrationPage extends Component{
   }
   register = event =>{
     console.log(this.state.credentials);
+    fetch('https://wastecoin.herokuapp.com/api/v1/signup', {
+      method:'POST',
+      headers:{
+        Accept: 'application/form-data',
+        'Content-Type': 'application/json'
+      },
+      body:JSON.stringify(data)
+    }).then(
+      data =>{
+        console.log(data);
+      }
+    ).catch(error =>console.error(error));
+    
   }
   inputChanged= event =>{
     const cred = this.state.credentials;
