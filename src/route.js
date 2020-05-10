@@ -3,7 +3,6 @@ import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 
 import App from './views/Landing/index';
 import AuthLayout from './components/Layout/Auth';
-import AppLayout from './components/Layout/AppLayout';
 import SignIn from './views/SignIn';
 import SignUp from './views/SignUp';
 import VerificationPage from './views/Verification';
