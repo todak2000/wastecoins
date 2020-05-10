@@ -4,6 +4,9 @@ import Back_Button from '../../images/Chevron.svg';
 import { Link } from 'react-router-dom';
 
 function RegistrationPage(props) {
+  register = event =>{
+    console.log('register here!');
+  }
   return(
       <div className="login-card">
           <div className="reg-header text-center"> <Link to ="/"><img src={Back_Button} className="back-button mobile-logo float-left" alt="logo" /></Link>Register</div>
@@ -96,7 +99,7 @@ function RegistrationPage(props) {
               
             </div>
             <div className="col-md-12 submit-reg-div">
-            <Link to ="/verification"> <button type="submit" className="reg-submit" >Create Account</button></Link>
+             <button type="submit" className="reg-submit" onClick={this.register}>Create Account</button>
                 <Link to ="/login"><p>Have an account already? Sign in </p></Link>
             </div>
           </form>
