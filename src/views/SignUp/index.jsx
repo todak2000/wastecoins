@@ -3,11 +3,30 @@ import Waste_Logo from '../../images/waste_coin_logo.svg';
 import Back_Button from '../../images/Chevron.svg';
 import { Link } from 'react-router-dom';
 
-register = event =>{
-  console.log('register here!');
-}
+
 function RegistrationPage(props) {
-  
+  state = {
+    credentials:{
+      firstname: '',
+      lastname: '',
+      phonenumber: '',
+      email: '',
+      password: '',
+      confirmpassword: '',
+      address:'',
+      lga: '',
+      state:'',
+      country:''
+    }
+  }
+  register = event =>{
+    console.log(this.state.credentials);
+  }
+  inputChanged= event =>{
+    const cred = this.state.credentials;
+    cred[event.target.id] = event.target.value;
+    this.setState({credentials: cred})
+  }
   return(
       <div className="login-card">
           <div className="reg-header text-center"> <Link to ="/"><img src={Back_Button} className="back-button mobile-logo float-left" alt="logo" /></Link>Register</div>
@@ -20,6 +39,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="firstName" 
                         placeholder="First Name"
+                        value={this.state.credentials.firstname}
+                        onChange={this.inputChanged}
                     />
                   </div>
 
@@ -28,6 +49,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="lastName" 
                         placeholder="Last Name"
+                        value={this.state.credentials.lastname}
+                        onChange={this.inputChanged}
                     />
                   </div>
 
@@ -36,6 +59,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="phone" 
                         placeholder="Phone Number"
+                        value={this.state.credentials.phonenumber}
+                        onChange={this.inputChanged}
                     />
                   </div>
 
@@ -44,6 +69,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="email" 
                         placeholder="Email"
+                        value={this.state.credentials.email}
+                        onChange={this.inputChanged}
                     />
                   </div>
 
@@ -52,6 +79,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="password" 
                         placeholder="Password"
+                        value={this.state.credentials.password}
+                        onChange={this.inputChanged}
                     />
                   </div>
               </div>
@@ -62,6 +91,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="confirmPassword" 
                         placeholder="Confirm Password"
+                        value={this.state.credentials.confirmpassword}
+                        onChange={this.inputChanged}
                     />
                   </div>
 
@@ -70,6 +101,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="address" 
                         placeholder="Street Address"
+                        value={this.state.credentials.address}
+                        onChange={this.inputChanged}
                     />
                   </div>
 
@@ -78,6 +111,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="lga" 
                         placeholder="L.G.A"
+                        value={this.state.credentials.lga}
+                        onChange={this.inputChanged}
                     />
                   </div>
 
@@ -86,6 +121,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="sstate" 
                         placeholder="State"
+                        value={this.state.credentials.state}
+                        onChange={this.inputChanged}
                     />
                   </div>
 
@@ -94,6 +131,8 @@ function RegistrationPage(props) {
                         className="form-control-login" 
                         id="country" 
                         placeholder="Country"
+                        value={this.state.credentials.country}
+                        onChange={this.inputChanged}
                     />
                   </div>
               </div>
