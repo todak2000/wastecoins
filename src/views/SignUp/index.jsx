@@ -26,7 +26,7 @@ class RegistrationPage extends Component{
         Accept: 'application/form-data',
         'Content-Type': 'application/json'
       },
-      body:JSON.stringify(data)
+      body:JSON.stringify(this.state.credentials)
     }).then(
       data =>{
         console.log(data);
