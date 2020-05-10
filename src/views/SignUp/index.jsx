@@ -3,10 +3,11 @@ import Waste_Logo from '../../images/waste_coin_logo.svg';
 import Back_Button from '../../images/Chevron.svg';
 import { Link } from 'react-router-dom';
 
+register = event =>{
+  console.log('register here!');
+}
 function RegistrationPage(props) {
-  register = event =>{
-    console.log('register here!');
-  }
+  
   return(
       <div className="login-card">
           <div className="reg-header text-center"> <Link to ="/"><img src={Back_Button} className="back-button mobile-logo float-left" alt="logo" /></Link>Register</div>
